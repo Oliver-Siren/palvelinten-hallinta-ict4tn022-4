@@ -1,0 +1,27 @@
+#salt apache muistilista
+
+install apache
+/var/www/html/index.html default korvaa
+luo public_html ja sinne index
+sudo a2enmod userdir
+restart apache
+
+sites-available?sites-enabled?
+file.managed oletussivuun
+
+a2enmod userdir creates mods-enabled/userdir.conf
+
+komento suoraan:
+  cmd.run:
+    - creates:
+
+poistettaessa apache2 on meta, poista apache2-bin?
+apache2 service.running
+
+userdir file.symlink stackoverflow
+
+symlinkit userdir.load ja .conf
+ufw
+ota käyttöön public_html sivu
+a2ensite
+symlinks sites-available/enabled
