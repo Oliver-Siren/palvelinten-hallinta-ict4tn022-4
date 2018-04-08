@@ -1,0 +1,1 @@
+tehtävien tuotokset, lähinnä /srv/salt/-kansio. h1 puuttuu mutta oli vain lyhyt harjoitus.
