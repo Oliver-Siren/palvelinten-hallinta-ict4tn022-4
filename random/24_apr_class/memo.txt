@@ -1,0 +1,6 @@
+24 april class files
+
+tried git in terminal
+
+installed apache on two minions and made use of salt pillar & jinja
+committed /srv/ directory had its own .git directory present which was problematic. removed and resolved.
