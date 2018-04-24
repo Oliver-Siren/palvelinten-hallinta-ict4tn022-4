@@ -1,0 +1,2 @@
+# minion toinen
+username: xubuntu

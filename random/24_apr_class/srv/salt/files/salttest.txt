@@ -1,0 +1,3 @@
+salting testi, usea minion 
+
+minionin nimi on {{ minion }}
