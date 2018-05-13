@@ -11,6 +11,8 @@ top.sls:
 ```
 base:
   '*':
+    - steam
+    - tf2
 ```
 Moduuliin voisi jatkossa lisätä seuraavaa:
 * Windows ja Mac -tuen? Mikäli mahdollista
