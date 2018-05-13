@@ -15,7 +15,7 @@ base:
     - tf2
 ```
 Moduuliin voisi jatkossa lisätä seuraavaa:
-* Windows ja Mac -tuen? Mikäli mahdollista
+* Windows ja Mac-tuki? Mikäli mahdollista
 * Linuxille pelipalvelimen luova koodi (uusi käyttäjä, tervapallon purku ja läjä skriptejä verkko-, päivitys- ja ajohommiin)
 
 ---
