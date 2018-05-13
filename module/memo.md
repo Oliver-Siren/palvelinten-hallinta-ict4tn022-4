@@ -6,5 +6,14 @@
 * Käynnistä SteamCMD, kirjaudu sisään etukäteen luodulla käyttäjällä (pillar)
 * Lataa TF2 ja hoida asetukset (autoexec ym.), käynnistä peli.
 
+top.sls:
+
+```
+base:
+  '*':
+```
+Moduuliin voisi jatkossa lisätä seuraavaa:
+* Windows ja Mac -tuen? Mikäli mahdollista
+* Linuxille pelipalvelimen luova koodi (uusi käyttäjä, tervapallon purku ja läjä skriptejä verkko-, päivitys- ja ajohommiin)
 
 ---
