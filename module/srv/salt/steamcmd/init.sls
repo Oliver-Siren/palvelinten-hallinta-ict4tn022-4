@@ -9,3 +9,13 @@
 #
 # https://developer.valvesoftware.com/wiki/SteamCMD
 
+
+steam:
+  user.present:
+    - fullname: steam
+    - shell: /bin/bash
+    - home: /home/steam
+    - uid: 5000
+    - gid: 5000
+    - groups:
+      - 
