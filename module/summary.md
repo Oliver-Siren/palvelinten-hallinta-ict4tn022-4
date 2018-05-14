@@ -11,7 +11,7 @@ useradd -m steam
 ```
 
 2. Install steamcmd via apt.
-3. Create a symlink with the executable ln 
+3. Create a symlink with the executable 
 
 ```
 ln -s /usr/games/steamcmd steamcmd
