@@ -4,20 +4,20 @@ SaltStack SteamCMD
 
 But first setting up everything manually (Xubuntu):
 
-1. Create a user, "steam" with useradd. Go to /home/steam
+1. Create a user, "steam" with useradd. Go to /home/steam.
 
 ```
 useradd -m steam
 ```
 
 2. Install steamcmd via apt.
-3. Create a symlink with the executable 
+3. Create a symlink with the executable.
 
 ```
 ln -s /usr/games/steamcmd steamcmd
 ```
 4. Run steamcmd. 
-5. Login, either anonymous or <username>
+5. Login, either anonymous or with a username and password.
 6. To download games or dedicated servers, first change the install directory, then update the desired/correct app ID.
 
 ```
