@@ -11,8 +11,8 @@ top.sls:
 ```
 base:
   '*':
-    - steam
-    - tf2
+    - steamcmd
+    - steamcmd.tf2
 ```
 Moduuliin voisi jatkossa lisätä seuraavaa:
 * Eri käyttöjärjestelmien tuki. Windows ja Mac hoituisivat omalla tavallaan. Lieneekö jatkotoimet mahdollisia.
