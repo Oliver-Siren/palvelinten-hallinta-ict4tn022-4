@@ -4,7 +4,7 @@
 * Tarkista GPU-valmistaja grainsin avulla. Ajureiden päivitys ei onnistu, mutta Jinjan avulla file.managed-tekstitiedosto "Päivitä ajurit!"
 * Asenna SteamCMD, sekä muut ohjelmat (jos mitään)
 * Käynnistä SteamCMD, kirjaudu sisään etukäteen luodulla käyttäjällä (pillar)
-* Lataa TF2 ja hoida asetukset (autoexec ym.), käynnistä peli.
+* Lataa TF2 ja hoida asetukset (file.managed muutama .cfg-tiedosto), käynnistä peli.
 
 top.sls:
 
@@ -15,7 +15,7 @@ base:
     - tf2
 ```
 Moduuliin voisi jatkossa lisätä seuraavaa:
-* Windows ja Mac-tuki? Mikäli mahdollista
+* Eri käyttöjärjestelmien tuki. Windows ja Mac hoituisivat omalla tavallaan. Lieneekö jatkotoimet mahdollisia.
 * Linuxille pelipalvelimen luova koodi (uusi käyttäjä, tervapallon purku ja läjä skriptejä verkko-, päivitys- ja ajohommiin)
 
 ---
