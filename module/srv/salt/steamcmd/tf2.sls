@@ -12,7 +12,7 @@ foo:
 # steamcmd
 # Steam> login <username> (or anonymous)
 # Steam> force_install_dir <path>
-# Steam> app_update 440 validate
+# Steam> app_update <app_id> validate
 # 
 # Error 0x202 when out of disk space!
 # No commands to launch games...
